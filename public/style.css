@@ -1,0 +1,50 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: center/auto url('/rainforest.jpg');
+    color: #101010;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    margin-top:0;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    line-height: 1;
+}
+.generator{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    padding: 2rem;
+}
+button{
+    background:black;
+    border:none;
+    color:white; 
+    padding: 1rem 2rem; 
+    border-radius: 1rem; 
+    transition: background-color 150ms ease-in-out;
+    cursor: pointer;
+}
+#dinoImg{
+    max-width: 100%;
+    border-radius: 1rem;
+}
+#dinoName{
+    padding: 1rem;
+
+}
+
+button:hover{
+    background: grey;
+}
+
